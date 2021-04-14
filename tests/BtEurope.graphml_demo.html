@@ -1,0 +1,616 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://api-maps.yandex.ru/2.1/?
+apikey=73bc02d2-1232-4c7a-b4a7-5a58f210a2e0&lang=en_US"
+        type="text/javascript"></script>
+<script type="text/javascript">
+    ymaps.ready(function () {
+        var myMap = new ymaps.Map("YMapsID", {
+            center: [55.76, 37.64],
+            zoom: 1
+        });
+        myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [47.49801, 19.03991],
+        { balloonContent: "Budapest" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [48.13743, 11.57549],
+        { balloonContent: "Munich" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [50.08804, 14.42076],
+        { balloonContent: "Prague" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [48.20849, 16.37208],
+        { balloonContent: "Vienna" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [51.22172, 6.77616],
+        { balloonContent: "Dusseldorf" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [50.11667, 8.68333],
+        { balloonContent: "Frankfurt" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [47.36667, 8.55],
+        { balloonContent: "Zurich" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [48.85341, 2.3488],
+        { balloonContent: "Paris" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [45.46427, 9.18951],
+        { balloonContent: "Milan" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [41.38879, 2.15899],
+        { balloonContent: "Barcelona" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [50.05, -5.2],
+        { balloonContent: "Goonhilly" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [40.4165, -3.70256],
+        { balloonContent: "Madrid" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [60.16952, 24.93545],
+        { balloonContent: "Helsinki" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [55.67594, 12.56553],
+        { balloonContent: "Copenhagen" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [51.50853, -0.12574],
+        { balloonContent: "London" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [51.50853, -0.12574],
+        { balloonContent: "London" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [52.03333, -2.85],
+        { balloonContent: "Madley" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [53.34399, -6.26719],
+        { balloonContent: "Dublin" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [50.85045, 4.34878],
+        { balloonContent: "Brussels" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [52.37403, 4.88969],
+        { balloonContent: "Amsterdam" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [57.70716, 11.96679],
+        { balloonContent: "Gothenburg" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [59.33258, 18.0649],
+        { balloonContent: "Stockholm" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [47.49801, 19.03991],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [47.49801, 19.03991],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [47.49801, 19.03991],
+        [50.11667, 8.68333],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [50.11667, 8.68333],
+        [47.49801, 19.03991],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [48.13743, 11.57549],
+        [51.22172, 6.77616],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.22172, 6.77616],
+        [48.13743, 11.57549],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [48.13743, 11.57549],
+        [50.11667, 8.68333],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [50.11667, 8.68333],
+        [48.13743, 11.57549],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [50.08804, 14.42076],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [50.08804, 14.42076],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [50.08804, 14.42076],
+        [50.11667, 8.68333],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [50.11667, 8.68333],
+        [50.08804, 14.42076],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [48.20849, 16.37208],
+        [50.11667, 8.68333],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [50.11667, 8.68333],
+        [48.20849, 16.37208],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [48.20849, 16.37208],
+        [52.37403, 4.88969],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [52.37403, 4.88969],
+        [48.20849, 16.37208],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.22172, 6.77616],
+        [50.11667, 8.68333],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [50.11667, 8.68333],
+        [51.22172, 6.77616],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.22172, 6.77616],
+        [52.37403, 4.88969],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [52.37403, 4.88969],
+        [51.22172, 6.77616],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [50.11667, 8.68333],
+        [47.36667, 8.55],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [47.36667, 8.55],
+        [50.11667, 8.68333],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [50.11667, 8.68333],
+        [45.46427, 9.18951],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [45.46427, 9.18951],
+        [50.11667, 8.68333],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [50.11667, 8.68333],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [50.11667, 8.68333],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [50.11667, 8.68333],
+        [52.37403, 4.88969],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [52.37403, 4.88969],
+        [50.11667, 8.68333],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [47.36667, 8.55],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [47.36667, 8.55],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [48.85341, 2.3488],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [48.85341, 2.3488],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [48.85341, 2.3488],
+        [52.37403, 4.88969],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [52.37403, 4.88969],
+        [48.85341, 2.3488],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [45.46427, 9.18951],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [45.46427, 9.18951],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.38879, 2.15899],
+        [40.4165, -3.70256],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [40.4165, -3.70256],
+        [41.38879, 2.15899],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.38879, 2.15899],
+        [52.37403, 4.88969],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [52.37403, 4.88969],
+        [41.38879, 2.15899],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [50.05, -5.2],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [50.05, -5.2],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [40.4165, -3.70256],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [40.4165, -3.70256],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [60.16952, 24.93545],
+        [59.33258, 18.0649],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [59.33258, 18.0649],
+        [60.16952, 24.93545],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [55.67594, 12.56553],
+        [59.33258, 18.0649],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [59.33258, 18.0649],
+        [55.67594, 12.56553],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [52.37403, 4.88969],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [52.37403, 4.88969],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [59.33258, 18.0649],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [59.33258, 18.0649],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [52.03333, -2.85],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [52.03333, -2.85],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [53.34399, -6.26719],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [53.34399, -6.26719],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [50.85045, 4.34878],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [50.85045, 4.34878],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [51.50853, -0.12574],
+        [52.37403, 4.88969],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [52.37403, 4.88969],
+        [51.50853, -0.12574],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [53.34399, -6.26719],
+        [52.37403, 4.88969],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [52.37403, 4.88969],
+        [53.34399, -6.26719],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [52.37403, 4.88969],
+        [57.70716, 11.96679],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [57.70716, 11.96679],
+        [52.37403, 4.88969],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [52.37403, 4.88969],
+        [59.33258, 18.0649],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [59.33258, 18.0649],
+        [52.37403, 4.88969],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [57.70716, 11.96679],
+        [59.33258, 18.0649],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [59.33258, 18.0649],
+        [57.70716, 11.96679],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline(
+        [[50.08804, 14.42076] ,[51.50853, -0.12574] ,[59.33258, 18.0649]],
+        {},
+        {
+            strokeColor: '#FF0000AA',
+            strokeWidth: 6,
+        }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline(
+        [[50.08804, 14.42076] ,[50.11667, 8.68333] ,[52.37403, 4.88969] ,[59.33258, 18.0649]],
+        {},
+        {
+            strokeColor: '#000000',
+            strokeWidth: 6,
+        }
+    )
+);
+    });
+</script>
+<div id="YMapsID" style="width: 99vw; height: 99vh;"></div>
+</body>
+</html>
